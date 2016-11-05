@@ -1,5 +1,7 @@
 var express = require('express');
+var favicon = require('serve-favicon');
 var app = express();
+app.use(favicon(__dirname + '/public/favicon.ico'));
 app.set('view engine', 'pug');
 app.get('/', function (req, res) {
   res.render('index', { title: 'kuntur', message: 'testeando'});
