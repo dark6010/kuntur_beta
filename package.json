@@ -1,0 +1,27 @@
+{
+  "name": "kuntur",
+  "version": "1.0.0",
+  "description": "publicar biodiversidad en bolivia de una manera amigable",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dark6010/kuntur.git"
+  },
+  "keywords": [
+    "biodiversidad"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dark6010/kuntur/issues"
+  },
+  "homepage": "https://github.com/dark6010/kuntur#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "pug": "^0.1.0"
+  }
+}
