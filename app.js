@@ -8,6 +8,6 @@ app.get('/', function (req, res) {
   res.render('index', { title: 'kuntur', message: 'testeando'});
 });
 
-app.listen(80, function () {
+app.listen(process.env.PORT || 80, function () {
   console.log('corriendo en el puerto 80 como debe ser!');
 });
